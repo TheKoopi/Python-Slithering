@@ -39,3 +39,5 @@ def lotto649():
         f.write('\n'.join('Number: %s, Frequency: %s' % x for x in sorted_by_value))
     end = (time.time()*1000)
     print(f"Lotto649 Time to Execute: {end - start} ms\n")
+
+    # Home System - ~350 - 400 ms
